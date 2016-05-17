@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Office Hours</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_register">Register</string>
+    <string name="title_activity_student_register">StudentRegister</string>
+    <string name="title_activity_student_main">StudentMainActivity</string>
+    <string name="title_activity_tamain">TAMainActivity</string>
+    <string name="recurring">Recurring Every Week</string>
+
+    <string-array name="AM_PM">
+        <item>AM</item>
+        <item>PM</item>
+    </string-array>
+
+    <string-array name="DayOfWeek">
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+    </string-array>
+</resources>

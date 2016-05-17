@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:padding="50dp"
+    android:layout_width="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Class Code"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/etCode"
+        android:layout_width="match_parent"
+
+        android:hint="eg. CMSC436"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content" />
+
+    <Spinner
+        android:id="@+id/spDayOfWeek"
+        android:layout_width="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content" />
+
+
+    <LinearLayout android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Start Time HH:"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/etStartHours"
+        android:layout_width="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="MM:"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/etStartMinutes"
+        android:layout_width="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content" />
+
+    <Spinner
+        android:id="@+id/spStartAMPM"
+        android:layout_width="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content" />
+</LinearLayout>
+
+<LinearLayout android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="End time HH:"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/etEndHours"
+        android:layout_width="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="MM:"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/etEndMinutes"
+        android:layout_width="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content" />
+
+    <Spinner
+        android:id="@+id/spEndAMPM"
+        android:layout_width="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content" />
+</LinearLayout>
+
+
+    <CheckBox android:id="@+id/rbRecurring"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:text="@string/recurring" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:id="@+id/bCreateHours"
+        android:text="Add Hours"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
