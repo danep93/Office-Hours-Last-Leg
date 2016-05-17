@@ -10,6 +10,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:text="Class Code"
+        android:textColor="#333333"
         android:layout_height="wrap_content"/>
     <EditText
         android:id="@+id/etCode"
@@ -21,6 +22,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:text="Class Password"
+        android:textColor="#333333"
         android:layout_height="wrap_content" />
     <EditText
         android:id="@+id/etClassPassword"

@@ -10,6 +10,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:text="Class Code"
+        android:textColor="#333333"
         android:layout_height="wrap_content"/>
     <EditText
         android:id="@+id/etCode"
@@ -32,6 +33,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:text="Start Time HH:"
+        android:textColor="#333333"
         android:layout_height="wrap_content" />
     <EditText
         android:id="@+id/etStartHours"
@@ -42,6 +44,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:text="MM:"
+        android:textColor="#333333"
         android:layout_height="wrap_content" />
     <EditText
         android:id="@+id/etStartMinutes"
@@ -62,6 +65,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:text="End time HH:"
+        android:textColor="#333333"
         android:layout_height="wrap_content" />
     <EditText
         android:id="@+id/etEndHours"
@@ -72,6 +76,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:text="MM:"
+        android:textColor="#333333"
         android:layout_height="wrap_content" />
     <EditText
         android:id="@+id/etEndMinutes"
